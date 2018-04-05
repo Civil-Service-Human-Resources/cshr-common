@@ -6,7 +6,7 @@
 
     <groupId>uk.gov.cshr</groupId>
     <artifactId>cshr-common</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <name>cshr-common</name>
@@ -64,12 +64,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>bintray-rpg-repo</id>
-            <name>rpg-repo</name>
-            <url>https://api.bintray.com/maven/rpg/repo/cshr/;publish=1</url>
-        </repository>
-    </distributionManagement>
 </project>
