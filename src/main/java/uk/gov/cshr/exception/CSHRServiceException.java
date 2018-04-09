@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import uk.gov.cshr.error.CSHRServiceStatus;
+import uk.gov.cshr.status.CSHRServiceStatus;
 
 /**
  * Represents a generic CSHR service exception that wraps an instance of {@link CSHRServiceStatus}

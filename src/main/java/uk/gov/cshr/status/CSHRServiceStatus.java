@@ -1,4 +1,4 @@
-package uk.gov.cshr.error;
+package uk.gov.cshr.status;
 
 import java.util.List;
 

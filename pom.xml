@@ -6,7 +6,7 @@
 
     <groupId>uk.gov.cshr</groupId>
     <artifactId>cshr-common</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.5</version>
     <packaging>jar</packaging>
 
     <name>cshr-common</name>
@@ -15,6 +15,7 @@
     <properties>
         <hamcrest.junit.version>2.0.0.0</hamcrest.junit.version>
         <java.version>1.8</java.version>
+        <javax.persistence.version>1.0.2</javax.persistence.version>
         <lombok.version>1.16.18</lombok.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -22,6 +23,12 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>javax.persistence</groupId>
+                <artifactId>persistence-api</artifactId>
+                <version>${javax.persistence.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
@@ -38,6 +45,11 @@
     </dependencyManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
