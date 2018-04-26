@@ -21,6 +21,16 @@ public class StatusCodeTest {
     }
 
     @Test
+    public void testGetCode_PROCESS_COMPLETED() {
+        assertThat(StatusCode.PROCESS_COMPLETED.getCode(), is(equalTo("CSHR_20")));
+    }
+
+    @Test
+    public void testGetCode_PROCESS_COMPLETED_WITH_ERRORS() {
+        assertThat(StatusCode.PROCESS_COMPLETED_WITH_ERRORS.getCode(), is(equalTo("CSHR_21")));
+    }
+
+    @Test
     public void testGetCode_FILE_SYSTEM_ERROR() {
         assertThat(StatusCode.FILE_SYSTEM_ERROR.getCode(), is(equalTo("CSHR_100")));
     }

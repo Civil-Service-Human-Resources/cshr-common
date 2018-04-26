@@ -6,7 +6,7 @@
 
     <groupId>uk.gov.cshr</groupId>
     <artifactId>cshr-common</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.7</version>
     <packaging>jar</packaging>
 
     <name>cshr-common</name>

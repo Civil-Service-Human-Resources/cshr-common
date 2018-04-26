@@ -8,6 +8,10 @@ public enum StatusCode {
     RECORD_CREATED("CSHR_10"),
     // Entity updated in a data store
     RECORD_UPDATED("CSHR_11"),
+    // Requested Process Completed Successfully
+    PROCESS_COMPLETED("CSHR_20"),
+    // Requested Process Completed Successfully
+    PROCESS_COMPLETED_WITH_ERRORS("CSHR_21"),
     // Service reports an internal status working with files or directories
     FILE_SYSTEM_ERROR("CSHR_100"),
     // General status occurred in the service
