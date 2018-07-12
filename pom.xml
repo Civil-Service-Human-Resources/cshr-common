@@ -6,19 +6,19 @@
 
     <groupId>uk.gov.cshr</groupId>
     <artifactId>cshr-common</artifactId>
-    <version>0.0.7</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>cshr-common</name>
     <description>This is a library of code that could be reused in multiple projects.</description>
 
     <properties>
-        <hamcrest.junit.version>2.0.0.0</hamcrest.junit.version>
         <java.version>1.8</java.version>
-        <javax.persistence.version>1.0.2</javax.persistence.version>
-        <lombok.version>1.16.18</lombok.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <hamcrest.junit.version>2.0.0.0</hamcrest.junit.version>
+        <javax.persistence.version>1.0.2</javax.persistence.version>
+        <lombok.version>1.16.18</lombok.version>
     </properties>
 
     <dependencyManagement>

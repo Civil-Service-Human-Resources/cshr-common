@@ -12,6 +12,10 @@ public enum StatusCode {
     PROCESS_COMPLETED("CSHR_20"),
     // Requested Process Completed Successfully
     PROCESS_COMPLETED_WITH_ERRORS("CSHR_21"),
+    // Scanned file is clean and contains no known viruses or malware
+    FILE_IS_CLEAN("CSHR_300"),
+    // Scanned file is dirty and contains a known virus or some malware
+    FILE_IS_DIRTY("CSHR_301"),
     // Service reports an internal status working with files or directories
     FILE_SYSTEM_ERROR("CSHR_100"),
     // General status occurred in the service
