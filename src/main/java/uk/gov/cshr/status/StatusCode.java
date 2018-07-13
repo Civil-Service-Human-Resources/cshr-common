@@ -16,6 +16,8 @@ public enum StatusCode {
     FILE_IS_CLEAN("CSHR_300"),
     // Scanned file is dirty and contains a known virus or some malware
     FILE_IS_DIRTY("CSHR_301"),
+    // File could not be scanned for example it does not exist or there was an internal error trying to scan it
+    FILE_NOT_SCANNED("CSHR_302"),
     // Service reports an internal status working with files or directories
     FILE_SYSTEM_ERROR("CSHR_100"),
     // General status occurred in the service
