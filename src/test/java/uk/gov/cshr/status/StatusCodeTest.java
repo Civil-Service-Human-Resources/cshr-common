@@ -39,6 +39,11 @@ public class StatusCodeTest {
     public void getCode_FILE_IS_DIRTY() {
         assertThat(StatusCode.FILE_IS_DIRTY.getCode(), is(equalTo("CSHR_301")));
     }
+
+    @Test
+    public void getCode_FILE_NOT_SCANNED() {
+        assertThat(StatusCode.FILE_NOT_SCANNED.getCode(), is(equalTo("CSHR_302")));
+    }
     
     @Test
     public void getCode_FILE_SYSTEM_ERROR() {
