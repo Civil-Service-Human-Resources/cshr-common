@@ -29,6 +29,16 @@ public class StatusCodeTest {
     public void getCode_PROCESS_COMPLETED_WITH_ERRORS() {
         assertThat(StatusCode.PROCESS_COMPLETED_WITH_ERRORS.getCode(), is(equalTo("CSHR_21")));
     }
+    
+    @Test
+    public void getCode_FILE_SYSTEM_ERROR() {
+        assertThat(StatusCode.FILE_SYSTEM_ERROR.getCode(), is(equalTo("CSHR_100")));
+    }
+
+    @Test
+    public void getCode_INTERNAL_SERVICE_ERROR() {
+        assertThat(StatusCode.INTERNAL_SERVICE_ERROR.getCode(), is(equalTo("CSHR_200")));
+    }
 
     @Test
     public void getCode_FILE_IS_CLEAN() {
@@ -44,15 +54,10 @@ public class StatusCodeTest {
     public void getCode_FILE_NOT_SCANNED() {
         assertThat(StatusCode.FILE_NOT_SCANNED.getCode(), is(equalTo("CSHR_302")));
     }
-    
-    @Test
-    public void getCode_FILE_SYSTEM_ERROR() {
-        assertThat(StatusCode.FILE_SYSTEM_ERROR.getCode(), is(equalTo("CSHR_100")));
-    }
 
     @Test
-    public void getCode_INTERNAL_SERVICE_ERROR() {
-        assertThat(StatusCode.INTERNAL_SERVICE_ERROR.getCode(), is(equalTo("CSHR_200")));
+    public void getCode_NO_RESULTS_FOR_LOCATION() {
+        assertThat(StatusCode.NO_RESULTS_FOR_LOCATION.getCode(), is(equalTo("CSHR_400")));
     }
 
     @Test
